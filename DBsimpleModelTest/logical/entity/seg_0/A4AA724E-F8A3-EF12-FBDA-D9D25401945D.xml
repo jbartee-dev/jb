@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4AA724E-F8A3-EF12-FBDA-D9D25401945D" name="Entity2">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:17:01 UTC</createdTime>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<engineerTo>
+<item key="4AF84F67-EE85-6AC5-622E-666C83BA5382" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>E2</synonym>
+<synonymToDisplay>E2</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Attribute ALPHA2" id="33A26839-25EB-0744-E955-010E38FBB80B">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:19:40 UTC</createdTime>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<engineerTo>
+<item key="4AF84F67-EE85-6AC5-622E-666C83BA5382" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute GAMMA" id="EC459B40-0CA8-280A-CB84-5A90028F7F30">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:20:22 UTC</createdTime>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<engineerTo>
+<item key="4AF84F67-EE85-6AC5-622E-666C83BA5382" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Entity1 Attribute alpha" directorySegmentName="seg_0" id="5C5F7D46-8B05-DE67-0246-A3E3C0254C7E">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:22:26 UTC</createdTime>
+<generatorID>1FDC7BAB-A4D7-364B-382F-F76D52EF581E</generatorID>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<engineerTo>
+<item key="4AF84F67-EE85-6AC5-622E-666C83BA5382" value="true"/>
+</engineerTo>
+<referedAttribute>B62F6F46-2CE7-28DD-4D80-CD094D47FD82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F3B390B-565D-7558-523D-9BA17263FA66" name="Entity2 PK">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:20:06 UTC</createdTime>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<engineerTo>
+<item key="4AF84F67-EE85-6AC5-622E-666C83BA5382" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33A26839-25EB-0744-E955-010E38FBB80B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

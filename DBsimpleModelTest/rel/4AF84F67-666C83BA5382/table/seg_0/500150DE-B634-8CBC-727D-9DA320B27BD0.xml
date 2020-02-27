@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="500150DE-B634-8CBC-727D-9DA320B27BD0" name="Entity2">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:23:32 UTC</createdTime>
+<generatorID>A4AA724E-F8A3-EF12-FBDA-D9D25401945D</generatorID>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Attribute_ALPHA2" id="6D2AE36B-EE8A-6A1E-FA9A-D92D5D8CB931">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:23:32 UTC</createdTime>
+<generatorID>33A26839-25EB-0744-E955-010E38FBB80B</generatorID>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_GAMMA" id="2A124263-2D08-4316-B482-1D7148700F83">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:23:32 UTC</createdTime>
+<generatorID>EC459B40-0CA8-280A-CB84-5A90028F7F30</generatorID>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Entity1_Attribute_alpha" id="24FE0A20-88B6-1CD3-7F5F-7FE8CCEB2236">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:23:32 UTC</createdTime>
+<generatorID>5C5F7D46-8B05-DE67-0246-A3E3C0254C7E</generatorID>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AC970F6-C869-B59B-67ED-FC5D59345EA8" referredColumn="D0AF2D70-9A2B-C53C-8400-DD90D7E6EA12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AC8D5BD-8C6F-0D12-E439-107C7E11396D" name="Entity2_PK">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:23:32 UTC</createdTime>
+<generatorID>7F3B390B-565D-7558-523D-9BA17263FA66</generatorID>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D2AE36B-EE8A-6A1E-FA9A-D92D5D8CB931"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F464560-F335-A77C-5865-EFC2695BF331" name="Entity2_Entity1_FK">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:23:32 UTC</createdTime>
+<generatorID>1FDC7BAB-A4D7-364B-382F-F76D52EF581E</generatorID>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24FE0A20-88B6-1CD3-7F5F-7FE8CCEB2236"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CF520332-CEF5-9782-9EA3-C5E0B1997CB2" mainViewID="3D57BE9C-E72B-325F-1594-E3709BD7570D">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:05:25 UTC</createdTime>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

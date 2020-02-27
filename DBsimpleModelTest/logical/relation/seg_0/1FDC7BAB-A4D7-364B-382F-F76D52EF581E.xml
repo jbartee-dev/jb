@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Entity2 Entity1 FK" directorySegmentName="seg_0" id="1FDC7BAB-A4D7-364B-382F-F76D52EF581E">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:22:26 UTC</createdTime>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<engineerTo>
+<item key="4AF84F67-EE85-6AC5-622E-666C83BA5382" value="true"/>
+</engineerTo>
+<sourcePk>B7937584-901B-F000-38F8-E1161A1776BA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F3100B31-CE41-E111-FDE8-5A02D43A6B87</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A4AA724E-F8A3-EF12-FBDA-D9D25401945D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

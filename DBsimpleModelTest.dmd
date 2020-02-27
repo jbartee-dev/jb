@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DBsimpleModelTest" id="3266B5C1-9139-97A5-9403-18777EFCBB14" version="3.5">
+<createdBy>jbart</createdBy>
+<createdTime>2019-03-01 23:05:25 UTC</createdTime>
+<ownerDesignName>DBsimpleModelTest</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3266B5C1-9139-97A5-9403-18777EFCBB14</designId>
+</OSDM_Design>
